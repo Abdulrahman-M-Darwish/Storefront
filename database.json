@@ -1,0 +1,14 @@
+{
+  "dev": {
+    "driver": "pg",
+    "user": "postgres",
+    "database": "wd_gaster",
+    "password": "37051234"
+  },
+  "test": {
+    "driver": "pg",
+    "user": "postgres",
+    "database": "wd_test",
+    "password": "37051234"
+  }
+}
