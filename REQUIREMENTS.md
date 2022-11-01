@@ -4,10 +4,12 @@
   -- /users [GET] Token Required
   -- /users/:userId [GET] Token Required
   -- /users/create-user [post]
+  --- body:{password: string, firstName: string, lastName: string}
 - products routes
   -- /products [GET]
   -- /products/:productId [GET]
   -- /products/create-product [POST] Token Required
+  --- body: {name: string, price: number}
 - orders routes
   -- /orders/:userId [GET] Token Required
   -- /orders/completed/:userId [GET] Token Required

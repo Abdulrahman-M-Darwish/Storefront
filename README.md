@@ -14,8 +14,8 @@
 
 # ports the backend and database are running on
 
-server: 3000
-database: localhost
+server: http://localhost:3000
+database: localhost (with no port)
 
 # package installation instructions
 

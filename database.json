@@ -1,14 +1,16 @@
 {
   "dev": {
     "driver": "pg",
-    "user": "postgres",
-    "database": "wd_gaster",
-    "password": "37051234"
+    "user": { "ENV": "USER" },
+    "database": { "ENV": "DATABASE" },
+    "password": { "ENV": "PASSWORD" },
+    "host": "localhost"
   },
   "test": {
     "driver": "pg",
-    "user": "postgres",
-    "database": "wd_test",
-    "password": "37051234"
+    "user": { "ENV": "USER" },
+    "database": { "ENV": "TESTING_DB" },
+    "password": { "ENV": "PASSWORD" },
+    "host": "localhost"
   }
 }
