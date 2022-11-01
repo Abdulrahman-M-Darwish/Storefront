@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "nodemon src/app.ts",
-    "build": "tsc",
+    "build": "yarn tsc",
     "test": "set ENV=test && db-migrate db:create wd_test && db-migrate --env test up && tsc && jasmine && db-migrate db:drop wd_test",
     "migrate": "db-migrate --env test up && db-migrate up"
   },
