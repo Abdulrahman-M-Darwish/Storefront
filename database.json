@@ -4,13 +4,15 @@
     "user": { "ENV": "USER" },
     "database": { "ENV": "DATABASE" },
     "password": { "ENV": "PASSWORD" },
-    "host": "localhost"
+    "host": { "ENV": "HOST" },
+    "port": { "ENV": "DB_PORT" }
   },
   "test": {
     "driver": "pg",
     "user": { "ENV": "USER" },
     "database": { "ENV": "TESTING_DB" },
     "password": { "ENV": "PASSWORD" },
-    "host": "localhost"
+    "host": { "ENV": "HOST" },
+    "port": { "ENV": "DB_PORT" }
   }
 }
